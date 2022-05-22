@@ -4,27 +4,24 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<style>
 			html,body {height:100%;width:100%;margin:0;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
-			.card { max-width:80%; border:solid 1px;display:flex;flex-direction:column;border-radius:5px}
-			@media only screen and (min-width: 450px) {.card{width:19rem;}}
-			@media (prefers-color-scheme: dark)  {body{ background-color:  #212529; color: #f1f3f5;} .card{border-color: #343a40;}}
-			@media (prefers-color-scheme: light) {body{ background-color:  #f8f9fa; color: black;} .card{border-color: #dee2e6;}}
+			.card { max-width:80%;display:flex;flex-direction:column; gap: 15px;}
+			@media (min-width: 450px) {.card{width:19rem;}}
+			@media (prefers-color-scheme: dark)  {body{ background-color:  #212529; color: #f1f3f5;}}
+			@media (prefers-color-scheme: light) {body{ background-color:  #f8f9fa;}}
 		</style>
 	</head>
 	<body style="display:flex;justify-content:center;align-items:center;text-align:center;">
 		<div class="card">
+			<h1>🎉 Welcome 🎊</h1>
 			<picture>
 				<source srcset="pic_min.webp 1x" type="image/webp">
 				<source srcset="pic.jpg 1x" type="image/jpep">
 				<img style="width:100%; border-radius: 5px;" src="pic.jpg" alt="knitted grogu">
 			</picture>
-
-			<div style="padding:20px">
-				<h1 style="margin-block: 0">🎉 Welcome 🎊</h1>
-				<p style="padding-bottom: 5px;">You just got an exclusive preview of my awesome new website. Sadly, there is nothing here for you yet.</p>
-				<a href="https://www.github.com/rwutscher-tgm" target="_blank">
-					<button style="background-color:#007bff;border-radius:5px;border:none;padding:10px;color:white;width: 100%;cursor:pointer;">You could visit my GitHub</button>
-				</a>
-			</div>
+			<p>You just got an exclusive preview of my awesome new website. <br> Trust me, it's gonna be totally amazing!</p>
+			<a href="https://www.github.com/rwutscher-tgm" target="_blank">
+				<button style="background-color:#007bff;border-radius:5px;border:none;padding:10px;color:white;width: 100%;cursor:pointer;font-size: 1rem;">You could visit my GitHub</button>
+			</a>
 		</div>
 	</body>
 </html>
